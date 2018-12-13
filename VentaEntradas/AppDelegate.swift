@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  VentaEntradas
-//
-//  Created by Joaquín Collazo Ruiz on 04/12/2018.
-//  Copyright © 2018 Joaquín Collazo Ruiz. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
