@@ -23,10 +23,8 @@ class DetailViewController: UIViewController {
         dateDetail.text = date
         priceDetail.text = price
         img.image = image
-        
     }
-    
-    
+    //Es la lógica del botón de compra, añado a unos arrays vacios la información de la celda para mostrarmelo mas alante en otra vista
     func buyTicket(){
         if btnCompra.isTouchInside && (!(numEntradas.text?.isEmpty)!)
         {
@@ -45,7 +43,7 @@ class DetailViewController: UIViewController {
             present(alert, animated: true, completion: nil)
         }
     }
-    
+    //Esta función es la encargada del código que se me genera al comprar una entrada
     func randomString(length: Int) -> String {
         
         let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"

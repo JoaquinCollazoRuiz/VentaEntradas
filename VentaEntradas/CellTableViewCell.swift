@@ -1,7 +1,7 @@
 import UIKit
 
 class CellTableViewCell: UITableViewCell {
-
+//Variables de mi celda de entradas disponibles para comprar
     @IBOutlet weak var lbl: UILabel!
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var price: UILabel!

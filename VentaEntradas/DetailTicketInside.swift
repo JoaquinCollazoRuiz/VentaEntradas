@@ -1,7 +1,7 @@
 import UIKit
 
 class DetailTicketInside: UIViewController {
-    
+    //Variables de detalle de entradas compradas
     @IBOutlet weak var imageDetailInside: UIImageView!
     @IBOutlet weak var codeDetailInside: UILabel!
     @IBOutlet weak var dateDetailInside: UILabel!

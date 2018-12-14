@@ -1,7 +1,7 @@
 import UIKit
 
 class TableViewCellBuyTicket: UITableViewCell {
-        
+    //Variables de celda de entradas compradas
     @IBOutlet weak var nombreTicket: UILabel!
     @IBOutlet weak var lblBuyTicket: UILabel!
     @IBOutlet weak var fechaTicket: UILabel!
